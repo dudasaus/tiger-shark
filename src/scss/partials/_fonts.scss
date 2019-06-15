@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+@font-face {
+	font-family: 'Comic Sans';
+	src: url('/assets/ComicSansMS.ttf');
+}
+
+$heading-font-family: 'Bree Serif', serif;
+$regular-font-family: 'Comic Sans', sans-serif;
+
+* {
+  font-family: $regular-font-family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+  font-weight: normal;
+}

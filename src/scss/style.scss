@@ -1,6 +1,12 @@
 @import "./partials/colors";
+@import "./partials/fonts";
 
 body {
-  background: $off-white;
-  color: $off-black;
+  background: $dark-gray;
+  color: $off-white;
+}
+
+.pretty-big-guy {
+  font-size: 15rem;
+  margin: -3rem 0;
 }
