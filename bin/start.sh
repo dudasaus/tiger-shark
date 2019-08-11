@@ -1,12 +1,7 @@
 #!/bin/bash
 
-# Clean, build, and start the server
-
-# Clean the distribution
-./bin/clean.sh
-
-# Build the distribution
-./bin/build.sh
+# We can't build here anymore
+echo "NOTE: This script no longer builds and cleans. npm run gcp-build first."
 
 # Start the server
 echo "Starting server..."

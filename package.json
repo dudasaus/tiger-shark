@@ -7,6 +7,7 @@
     "build": "./bin/build.sh",
     "clean": "./bin/clean.sh",
     "dev": "./bin/dev.sh",
+    "gcp-build": "./bin/clean.sh && ./bin/build.sh",
     "start": "./bin/start.sh",
     "stop-dev": "./bin/stop-dev.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
