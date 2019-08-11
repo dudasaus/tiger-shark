@@ -1,6 +1,11 @@
 @import "./partials/colors";
 @import "./partials/fonts";
 
+// the "don't take me seriously" rule.
+* {
+  text-transform: lowercase;
+}
+
 body {
   background: $dark-gray;
   color: $off-white;
