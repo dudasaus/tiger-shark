@@ -1,18 +1,26 @@
 @import "./partials/colors";
 @import "./partials/fonts";
 
-// the "don't take me seriously" rule.
 * {
+  box-sizing: border-box;
+  // the "don't take me seriously" rule.
   text-transform: lowercase;
 }
 
 body {
-  background: $dark-gray;
   color: $off-white;
   margin: 0;
 }
 
+.intro {
+  padding: 2rem;
+}
+
 .hero {
+  background:
+    url('/assets/flatirons-web.svg') center bottom / 100vw auto no-repeat,
+    linear-gradient(to bottom right, $sky-blue, darken($sky-blue, 30%));
+  color: $dark-blue;
   height: 100vh;
-  background: url('/assets/flatirons-web.svg') center bottom / 100vw auto no-repeat;
+  position: relative;
 }
