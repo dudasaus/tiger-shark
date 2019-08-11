@@ -9,9 +9,10 @@
 body {
   background: $dark-gray;
   color: $off-white;
+  margin: 0;
 }
 
-.pretty-big-guy {
-  font-size: 15rem;
-  margin: -3rem 0;
+.hero {
+  height: 100vh;
+  background: url('/assets/flatirons-web.svg') center bottom / 100vw auto no-repeat;
 }
