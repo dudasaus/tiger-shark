@@ -24,3 +24,9 @@ body {
   height: 100vh;
   position: relative;
 }
+
+@media (orientation: portrait) {
+  .hero {
+    background-size: 150vw auto;
+  }
+}
